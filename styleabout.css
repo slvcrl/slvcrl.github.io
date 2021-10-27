@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 50px;
+	height: 50;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .right{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+body{
+    background-image: url("./images/bbg.png");
+    color: #faebd7;
+    font-family: Monaco;
+    font-size: 24px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#showcase{
+    background-image: url('./images/meme1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+#showcase p{
+    color: #151B54;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    margin-top: 20;
+    line-height: 1.6em;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+	color: #faebd7;
+	font-family: Arial;
+    font-size: 18px;
+    margin-top: 20;
+	text-align: justify;
+
+}
+#sidebar{
+	float: right;
+	width: 30%; 
+	color: #faebd7;
+	padding: 10px;
+	box-sizing: border-box;
+ }
+
+ #sidebar .logo{
+	 width: 300px;
+	 height: 350px;
+ }
+ 
+#main-footer{
+background: #0C090A;
+color: #fff;
+text-align: center;
+padding: 20px;
+margin-top: 150px;
+ 
+}
